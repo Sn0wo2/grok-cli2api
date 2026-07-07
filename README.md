@@ -13,6 +13,7 @@
 
 - Load balancing, circuit breaking, and rollback of the pool of accounts
 - RESTful API, including but not limited to usage queries
+- GoReleaser
 
 ## CLI
 
