@@ -2,6 +2,10 @@
 
 > Converts grok-cli authentication to the OpenAI Responses API format
 
+> [!IMPORTANT]  
+> 坏了，我开发完了才知道 [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) 早早支持了 `grok-cli`  
+> 如果你正在寻找更好的替代品可以去 `CLIProxyAPI`...
+
 ### Currently, the following is achieved:
 
 - Supports CLI Login
@@ -11,7 +15,7 @@
 
 ### TODO:
 
-- Load balancing, circuit breaking, and rollback of the pool of accounts
+- Load balancing, circuit breaking, and fallback of the pool of accounts
 - RESTful API, including but not limited to usage queries
 - GoReleaser
 
